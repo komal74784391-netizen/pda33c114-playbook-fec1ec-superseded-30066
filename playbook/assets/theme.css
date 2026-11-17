@@ -1,0 +1,20 @@
+/* Playbook theme */
+:root {
+  --ink: #1d2433;
+  --paper: #fbfaf7;
+  --accent: #2f6f6b;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "Source Serif Pro", Georgia, serif;
+  margin: 0 auto;
+  max-width: 46rem;
+  padding: 2rem 1.25rem;
+}
+
+h1 {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+}
